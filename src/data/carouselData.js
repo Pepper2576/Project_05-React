@@ -12,6 +12,6 @@ export const CAROUSELDATA = [
   { img: img3, title: 'carousel img3', id: 3 },
   { img: img4, title: 'carousel img4', id: 4 },
   { img: img5, title: 'carousel img5', id: 5 },
-  { img: img6, title: 'carousel img6', id: 6 },
   { img: img7, title: 'carousel img7', id: 7 },
+  { img: img6, title: 'carousel img6', id: 6 },
 ];
