@@ -1,6 +1,8 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 import { DATA } from '../data/data';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Products = () => {
   return (
@@ -12,6 +14,9 @@ const Products = () => {
             img={item.img}
             title={item.title}
             author={item.author}
+            summery={item.summary}
+            link={item.url}
+            repo={item.repo}
           />
         );
       })}
