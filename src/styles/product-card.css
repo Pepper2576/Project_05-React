@@ -5,3 +5,8 @@
 .btn-container > a {
   margin: 5px;
 }
+
+.card {
+  padding: 10px;
+  margin: 3em;
+}
